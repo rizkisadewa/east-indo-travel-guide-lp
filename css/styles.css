@@ -57,6 +57,47 @@ body, p {
 	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
 }
 
+#whatsapp-widget {
+    position:fixed;
+    right:20px;
+    bottom:20px;
+    z-index: 50;    
+}
+
+.whatsapp-widget-btn {
+    background:#32C03C;
+    vertical-align:center;
+    height: 3rem;
+    border-radius:50px;
+    color:white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#fb-widget {
+    position:fixed;
+    left:20px;
+    bottom:20px;
+    z-index: 50;  
+}
+
+.fb-widget-btn {
+    background:#385898;
+    vertical-align:center;
+    height: 3rem;
+    border-radius:50px;
+    color:white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fb-widget-btn img{
+    width: 2rem;
+    height: auto;
+}
+
 .p-large {
 	font: 400 1.125rem/1.625rem "Open Sans", sans-serif;
 }
@@ -850,7 +891,7 @@ input[type='checkbox'] {
 /*     06. Description     */
 /***************************/
 .cards-1 {
-	padding-top: 3rem;
+	padding-top: rem;
 	padding-bottom: 2.875rem;
 }
 
@@ -1246,7 +1287,10 @@ input[type='checkbox'] {
 .form-1 {
 	padding-top: 6.625rem;	
 	padding-bottom: 5.625rem;	
-	background-color: #153e52;
+	background-image: url('../images/project-6.jpg');
+	 background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
 
 .form-1 .text-container {
@@ -2308,15 +2352,15 @@ a:hover.back-to-top {
 
 	/* Services */
 	.cards-2 .card {
-		max-width: 20.875rem;
+		max-width: 14.875rem;
 	}
 
 	.cards-2 .card-body {
-		padding: 2.25rem 2.5rem 2.125rem 2.5rem;
+		padding: 1.25rem 1.5rem 1.125rem 1.5rem;
 	}
 
 	.cards-2 .col-lg-12 div.card:nth-child(3n+2) {
-		margin-right: 3rem;
+		margin-right: 2rem;
 		margin-left: 3rem;
 	}
 	/* end of services */
